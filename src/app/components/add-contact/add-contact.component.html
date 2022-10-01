@@ -1,0 +1,62 @@
+<div class="container mt-3">
+    <div class="row">
+        <div class="col">
+            <p class="h3 fw-bold text-danger">Add Contact</p>
+        </div>
+        <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam obcaecati quia ipsum? Praesentium quis eveniet vitae eos facere, incidunt in harum saepe iusto ipsam. Molestiae velit aliquid placeat nam expedita!</p>
+
+        <pre> {{ contact | json}} </pre>
+    </div>
+</div>
+
+
+
+<div class="container mt-3" *ngIf="contact">
+    <div class="row">
+        <div class="col-sm-4">
+
+             <form [formGroup]="myForm" (ngSubmit)="createSubmit()" novalidate>
+
+              <div class="mb-2">
+                    <input type="text"  formControlName="name" class="form-control" placeholder="Name" required>
+                </div>
+                <div *ngIf="name.touched && name.invalid" class="alert alert-danger">
+                    <div *ngIf="name.errors?.required">Please provide name</div>
+                    <div *ngIf="name.errors?.minlength">Name must be 4 characters</div>
+                    <div *ngIf="name.errors?.noWhiteSpace">Whitespace is not allowed</div>
+                  </div>
+                            
+                <div class="mb-2">
+                    <input type="text"   class="form-control" placeholder="photoUrl"  formControlName="photo">
+                </div>
+                <div class="mb-2">
+                    <input type="email"  class="form-control" placeholder="Email"  formControlName="email">
+                </div>
+                <div class="mb-2">
+                    <input type="number" formControlName="mobile"   class="form-control" placeholder="Mobile">
+                </div>    
+                <div class="mb-2">
+                    <input type="text"  formControlName="company"  class="form-control" placeholder="Company" >
+                </div>
+                <div class="mb-2">
+                    <input type="text" class="form-control"   formControlName="title" placeholder="Title">
+                </div>    
+             
+                <div class="mb-2" *ngIf="groups">
+                    <select  class="form-control"  formControlName="groupId" >
+                        <option value=""> Select Group</option>
+                        <option *ngFor="let group of groups" [value]="group.id"> {{ group.name }}</option>
+                    </select>
+                </div>  
+                <div class="mb-2">
+                    <input class="btn btn-danger"  type="submit" value="Create">
+                    <a routerLink="/" class="btn btn-dark ms-2"><i class="fa fa-arrow-circle-left ms-1"></i> Back</a>
+                </div>                                 
+            </form>
+        </div>
+        <div class="col-sm-4">
+            <img [src]="contact.photo" alt="" >
+        </div>
+    </div>
+</div>
+

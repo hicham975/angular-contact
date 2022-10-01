@@ -1,0 +1,155 @@
+{
+  "groups": [
+    {
+      "id": 1,
+      "name": "DEE"
+    },
+    {
+      "id": 2,
+      "name": "SDI"
+    }
+  ],
+  "contacts": [
+    {
+      "id": 1,
+      "name": "mahdi dee",
+      "photo": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8&w=1000&q=80",
+      "mobile": "055555555",
+      "email": "nounou975@gamil.com",
+      "company": "entv",
+      "title": "Developper",
+      "groupId": 1
+    },
+    {
+      "id": 2,
+      "name": "amine bennabi",
+      "photo": "https://media.istockphoto.com/photos/what-does-it-mean-being-macho-bristle-and-facial-hair-natural-beauty-picture-id1161542987?b=1&k=20&m=1161542987&s=170667a&w=0&h=wLRwNHvZlfVaoqDRRCmchR5pLghozgyTzVSMJPhbdNI=",
+      "mobile": "0666666666666",
+      "email": "amine@gamil.com",
+      "company": "entv",
+      "title": "Technicien",
+      "groupId": 2
+    },
+    {
+      "id": 3,
+      "name": "samir bena",
+      "photo": "https://media.istockphoto.com/photos/portrait-of-happy-mature-man-smiling-picture-id1278978817?b=1&k=20&m=1278978817&s=612x612&w=0&h=loQiVJR2QgLyZnZa5vn5DmpzJyXk_1Ton4Z71NsCuPQ=",
+      "mobile": "0777777777",
+      "email": "samir@gamil.com",
+      "company": "entv",
+      "title": "Ingeneer",
+      "groupId": 2
+    },
+    {
+      "id": 4,
+      "name": "mahdi dee",
+      "photo": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8&w=1000&q=80",
+      "mobile": "055555555",
+      "email": "nounou975@gamil.com",
+      "company": "entv",
+      "title": "Developper",
+      "groupId": 1
+    },
+    {
+      "id": 5,
+      "name": "amine bennabi",
+      "photo": "https://media.istockphoto.com/photos/what-does-it-mean-being-macho-bristle-and-facial-hair-natural-beauty-picture-id1161542987?b=1&k=20&m=1161542987&s=170667a&w=0&h=wLRwNHvZlfVaoqDRRCmchR5pLghozgyTzVSMJPhbdNI=",
+      "mobile": "0666666666666",
+      "email": "amine@gamil.com",
+      "company": "entv",
+      "title": "Technicien",
+      "groupId": 2
+    },
+    {
+      "id": 6,
+      "name": "samir bena",
+      "photo": "https://media.istockphoto.com/photos/portrait-of-happy-mature-man-smiling-picture-id1278978817?b=1&k=20&m=1278978817&s=612x612&w=0&h=loQiVJR2QgLyZnZa5vn5DmpzJyXk_1Ton4Z71NsCuPQ=",
+      "mobile": "0777777777",
+      "email": "samir@gamil.com",
+      "company": "entv",
+      "title": "Ingeneer",
+      "groupId": 2
+    },
+    {
+      "id": 7,
+      "name": "mahdi dee",
+      "photo": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8&w=1000&q=80",
+      "mobile": "055555555",
+      "email": "nounou975@gamil.com",
+      "company": "entv",
+      "title": "Developper",
+      "groupId": 1
+    },
+    {
+      "id": 8,
+      "name": "amine bennabi",
+      "photo": "https://media.istockphoto.com/photos/what-does-it-mean-being-macho-bristle-and-facial-hair-natural-beauty-picture-id1161542987?b=1&k=20&m=1161542987&s=170667a&w=0&h=wLRwNHvZlfVaoqDRRCmchR5pLghozgyTzVSMJPhbdNI=",
+      "mobile": "0666666666666",
+      "email": "amine@gamil.com",
+      "company": "entv",
+      "title": "Technicien",
+      "groupId": 2
+    },
+    {
+      "id": 16,
+      "name": "Meriem chaouati",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUz5EWKDu-QHOR3ym0eWBSQenc69_kODInRA&usqp=CAU",
+      "email": "contact@francetelevisions.com",
+      "mobile": 156226000,
+      "company": "France Televisions",
+      "title": "Avocat",
+      "groupId": "1"
+    },
+    {
+      "name": "chaouati",
+      "email": "nounou975@gmail.com",
+      "mobile": 552901966,
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUz5EWKDu-QHOR3ym0eWBSQenc69_kODInRA&usqp=CAU",
+      "company": "France Televisions",
+      "groupId": "1",
+      "title": "sasasasa",
+      "id": 17
+    },
+    {
+      "name": "Bouchra Maria boumahdi",
+      "email": "nounou975@gmail.com",
+      "mobile": 552901966,
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUz5EWKDu-QHOR3ym0eWBSQenc69_kODInRA&usqp=CAU",
+      "company": "France Televisions",
+      "groupId": "2",
+      "title": "info",
+      "id": 20
+    },
+    {
+      "id": 21,
+      "name": "Bouchra Maria boumahdi",
+      "email": "nounou975@gmail.com",
+      "mobile": 552901966,
+      "photo": "https://media.istockphoto.com/photos/portrait-of-happy-mature-man-smiling-picture-id1278978817?b=1&k=20&m=1278978817&s=612x612&w=0&h=loQiVJR2QgLyZnZa5vn5DmpzJyXk_1Ton4Z71NsCuPQ=",
+      "company": "France Televisions",
+      "title": "gfdg",
+      "groupId": "1"
+    },
+    {
+      "id": 22
+    },
+    {
+      "id": 23
+    },
+    {
+      "id": 24
+    },
+    {
+      "id": 25
+    },
+    {
+      "id": 26
+    },
+    {
+      "id": 27
+    },
+    {
+      "id": 28
+    }
+  ]
+}
